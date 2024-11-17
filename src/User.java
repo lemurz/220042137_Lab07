@@ -15,7 +15,6 @@ public class User {
         this.userType = userType;
     }
 
-    // Getters
     public String getUserID() {
         return userID;
     }
@@ -32,9 +31,6 @@ public class User {
         return userType;
     }
 
-    // Password is intentionally not provided with a getter for security
-
-    // Setter for password (for updating it if needed)
     public void setPassword(String newPassword) {
         this.password = newPassword;
     }
